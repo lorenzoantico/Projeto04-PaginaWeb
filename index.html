@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul id="link">
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#publicacoes">Publicações</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+        </nav>
+        <ul id="redes">
+            
+            <li>
+                <a href="https://www.linkedin.com/in/lorenzo-antico-84aa39185/" target="_blank">
+                    <img src="./assets/linkedin.svg" alt="linkedin">
+                </a>
+                
+            </li>
+            <li>
+                <a href="https://github.com/lorenzoantico" target="_blank">
+                    <img src="./assets/github.svg" alt="github">
+                </a>
+                
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <img src="./assets/whatsapp.svg" alt="whatsapp">
+                </a>
+                
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <img src="./assets/twitter.svg" alt="twitter">
+                </a>
+                
+            </li>
+        </ul>
+
+        
+
+    </header>
+
+    <main>
+            <section id="inicio">
+                <h1>
+                    Desenvolvedor <span>WEB</span>
+                </h1>
+
+                <img src="./assets/Lorenzo.jpg" alt="Lorenzo Antico" id="pic">
+            </section>
+
+            <section id="formacao">
+                <div id="conteudo-formacao">
+                    <h2>Formação</h2>
+                    <ul id="lista-formacao">
+                        <li class="formacao-item">
+                            <img src="./assets/anhanguera.png" alt="Universidade Anhanguera">
+                            <div>
+                                <h3>Cursando Análise e Desenvolvimento de Sistemas</h3>
+                                <span>
+                                    <p class="onde">Universidade Anhanguera - SP</p>
+                                    <p class="quando">janeiro de 2022 à julho de 2024</p>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="formacao-item">
+                            <img src="./assets/anhanguera.png" alt="Universidade Anhanguera">
+                            <div>
+                                <h3>Graduação em Arquitetura e Urbanismo</h3>
+                                <span>
+                                    <p class="onde">Universidade Anhanguera - SP</p>
+                                    <p class="quando">Concluido em dezembro de 2021</p>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="habilidades">
+                <div id="conteudo-habilidades">
+                    <h2>
+                        <span>Minhas</span> Habilidades
+                    </h2>
+                    <ul id="tecnologias">
+                        <li class="tecnologia">
+                            <img src="./assets/icone_html.png" alt="HTML5">
+                            <p>HTML</p>
+                        </li>
+                        <li class="tecnologia">
+                            <img src="./assets/icone_css.png" alt="CSS3">
+                            <p>CSS</p>
+                        </li>
+                        <li class="tecnologia">
+                            <img src="./assets/icone_javascript.png" alt="JAVASCRIPT">
+                            <p>JAVASCRIPT</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="publicacoes">
+                <div id="conteudo-publicacoes">
+                    <h2>
+                        <span>Minhas</span> Publicações
+                    </h2>
+                    <article class="publicacao">
+                        <img src="./assets/eu2.jpeg" alt="Publicação 01">
+                        <div>
+                            <h3>Trabalho Publicado 01</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nulla vitae sint laboriosam voluptate ipsum, earum dolor deserunt molestias dolores eius sapiente officia nemo officiis dolorem tenetur assumenda odit iusto.</p>
+                        </div>
+                    </article>
+                    <article class="publicacao">
+                        <img src="./assets/eu3.jpeg" alt="Publicação 02">
+                        <div>
+                            <h3>Trabalho Publicado 02</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nulla vitae sint laboriosam voluptate ipsum, earum dolor deserunt molestias dolores eius sapiente officia nemo officiis dolorem tenetur assumenda odit iusto.</p>
+                        </div>
+                    </article>
+                </div>                  
+            </section>
+    </main>
+
+    <footer>
+        <div id="conteudo-footer">
+            <div id="titulo-footer">
+                <h2>Entre em contato</h2>
+                <p>Me mande uma mensagem!</p>
+            </div>
+            <form>
+                <input type="text" name="nome" placeholder="Digite seu nome" required="true">
+                <input type="email" placeholder="Digite seu email" required="true">
+                <input type="tel" placeholder="(00) 0 0000-0000" required="true">
+                <textarea 
+                placeholder="mensagens"
+                rows="7"
+                autocapitalize="sentences"
+                required="true"
+                ></textarea>
+                <input type="submit" value="Enviar" id="submit">
+            </form>    
+        </div>
+    </footer>    
+</body>
+
+</html>
